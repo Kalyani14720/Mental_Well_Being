@@ -32,7 +32,7 @@ class _signupState extends State<signup> {
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
-         Color.fromARGB(255, 230, 180, 231),
+        Color.fromARGB(255, 181, 223, 235),
           Color.fromARGB(255, 226, 204, 226),
         ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
         child: SingleChildScrollView(

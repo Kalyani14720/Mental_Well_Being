@@ -11,7 +11,7 @@ class _quizState extends State<quiz> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 230, 180, 231),
+      backgroundColor:  Color.fromARGB(255, 181, 223, 235),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,6 +28,7 @@ class _quizState extends State<quiz> {
             child: Image.asset('assets/logo.jpg',alignment: Alignment.topLeft,),width: 400,height: 100,
             
           )
+
         ]
       )
 
